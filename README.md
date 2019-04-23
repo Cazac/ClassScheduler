@@ -4,15 +4,17 @@ The KPU Class Scheduler project receives and auto-sorts input from a database to
 
 CURRENT DATABASE IS OFFLINE
 
-(SQL Code is provided if you which to re-create the database though!)
+(SQL Code is provided if you wish to re-create the database though!)
 
 
+-------------------------------------------------------------------------------------------
 - BASICS
 -------------------------------------------------------------------------------------------
 - Run The KPU-CS.jar file to run the project
 - View the project source code with Netbeans
 -------------------------------------------------------------------------------------------
 
+-------------------------------------------------------------------------------------------
 - INFORMATIONAL STRUCTURE
 -------------------------------------------------------------------------------------------
 -	Stores the following data,
@@ -21,24 +23,25 @@ CURRENT DATABASE IS OFFLINE
 -	- Building
 -	- Room Number
 -	- Classrooms with Desktop PCs
-- - -Semester -- year and season
-- - -Course info
-■	Course Name
-■	Course ID
-■	Program
-■	Course year (ie. 1st, 2nd, 3rd, 4th)
-■	PC Required in Classroom (Required/Not Required)
+- - - Semester (Year & Season)
+- - - Course info
+- Course Name
+-	Course ID
+-	Program
+-	Course year (ie. 1st, 2nd, 3rd, 4th)
+-	PC Required in Classroom (Required/Not Required)
   ○	Instructor
-■	First, Last Name
-■	KPU Staff ID
+-	First, Last Name
+-	KPU Staff ID
   ○	Section
-■	CRN
-■	Section ID
+-	CRN
+-	Section ID
   ○	Schedule
-■	Day of Week
-■	Course Time Slots
+- Day of Week
+-	Course Time Slots
 
 
+-------------------------------------------------------------------------------------------
 - SORTING RULES
 -------------------------------------------------------------------------------------------
 - Each faculty member will have a list of courses they can teach
