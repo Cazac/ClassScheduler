@@ -2,27 +2,27 @@
 
 The KPU Class Scheduler project receives and auto-sorts input from a database to schedule classes for students based off a defined rule set.
 
-CURRENT DATABASE IS OFFLINE 
+CURRENT DATABASE IS OFFLINE
+
 (SQL Code is provided if you which to re-create the database though!)
 
 
 - BASICS
 -------------------------------------------------------------------------------------------
-- Run the "Builds/MLSG - Chess Demo" to start the application
-- Hit the "esc" key to close application
-- C# Source code files can be found under "MLSG-Chess-Demo\MLSG - Chess Demo\Assets\Scripts"
+- Run The KPU-CS.jar file to run the project
+- View the project source code with Netbeans
 -------------------------------------------------------------------------------------------
 
 - INFORMATIONAL STRUCTURE
 -------------------------------------------------------------------------------------------
-●	Stores the following data:
-  ○	Classroom Information
-■	Campus
-■	Building
-■	Room Number
-■	Classrooms with Desktop PCs
-  ○	Semester -- year and season
-  ○	Course info
+-	Stores the following data,
+- Classroom Information
+- - Campus
+-	- Building
+-	- Room Number
+-	- Classrooms with Desktop PCs
+- - -Semester -- year and season
+- - -Course info
 ■	Course Name
 ■	Course ID
 ■	Program
@@ -41,11 +41,11 @@ CURRENT DATABASE IS OFFLINE
 
 - SORTING RULES
 -------------------------------------------------------------------------------------------
-○	Each faculty member will have a list of courses they can teach
-○	Each faculty member is constrained to a maximum of 4 sections per semester
-○	Each faculty is limited to teaching a maximum of 2 class per day
-○	3rd and 4th year classes can only be offered after 4pm
-○	Different sections of the same course cannot be offered in the same time block
+- Each faculty member will have a list of courses they can teach
+- Each faculty member is constrained to a maximum of 4 sections per semester
+- Each faculty is limited to teaching a maximum of 2 class per day
+- 3rd and 4th year classes can only be offered after 4pm
+- Different sections of the same course cannot be offered in the same time block
 
 -------------------------------------------------------------------------------------------
 
