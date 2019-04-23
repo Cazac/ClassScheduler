@@ -13,34 +13,30 @@ CURRENT DATABASE IS OFFLINE
 - Run The KPU-CS.jar file to run the project
 - View the project source code with Netbeans
 -------------------------------------------------------------------------------------------
-
--------------------------------------------------------------------------------------------
 - INFORMATIONAL STRUCTURE
 -------------------------------------------------------------------------------------------
 -	Stores the following data,
 - Classroom Information
-- - Campus
--	- Building
--	- Room Number
--	- Classrooms with Desktop PCs
-- - - Semester (Year & Season)
-- - - Course info
+- Campus
+- Building
+- Room Number
+- Classrooms with Desktop PCs
+- Semester (Year & Season)
+- Course info
 - Course Name
 -	Course ID
 -	Program
 -	Course year (ie. 1st, 2nd, 3rd, 4th)
 -	PC Required in Classroom (Required/Not Required)
-  ○	Instructor
+-	Instructor
 -	First, Last Name
 -	KPU Staff ID
-  ○	Section
+-	Section
 -	CRN
 -	Section ID
-  ○	Schedule
+-	Schedule
 - Day of Week
 -	Course Time Slots
-
-
 -------------------------------------------------------------------------------------------
 - SORTING RULES
 -------------------------------------------------------------------------------------------
@@ -55,3 +51,5 @@ CURRENT DATABASE IS OFFLINE
 Project by: 	Zachary Blouin
 
 Source Code: 	https://github.com/Cazac/ClassScheduler
+
+-------------------------------------------------------------------------------------------
